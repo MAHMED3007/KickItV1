@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 import './BookingsPage.css';
 import logo from './images/Logo.png';
 import user from './images/user.png';

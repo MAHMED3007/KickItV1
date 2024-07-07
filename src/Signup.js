@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { useNavigate } from 'react-router-dom'; 
 import './Signup.css';
 import Logo from './images/Logo.png';
 import UserIcon from './images/user.png';
@@ -10,9 +10,9 @@ import InstagramIcon from './images/instagram.png';
 import TwitterIcon from './images/twitter.png';
 
 function Signup() {
-  const navigate = useNavigate(); // Hook to handle navigation programmatically
+  const navigate = useNavigate(); 
 
-  // Function to handle navigation when a button is clicked
+
   const handleNavigation = (path) => {
     navigate(path);
   };

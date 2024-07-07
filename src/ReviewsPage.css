@@ -1,13 +1,13 @@
-/* Overall Page Styles */
+
 .reviewsPage {
-    font-family: 'Georama', sans-serif; /* Ensures consistent font across the page */
+    font-family: 'Georama', sans-serif; 
     position: relative;
     width: 100%;
-    min-height: 100vh; /* Ensures the page takes at least the full viewport height */
-    background: #FFFFFF; /* Sets a white background color */
+    min-height: 100vh; 
+    background: #FFFFFF; 
 }
 
-/* Header Styles */
+
 .header {
     width: 100%;
     height: 100px;
@@ -40,14 +40,14 @@
 }
 
 .navButton.active {
-    background: #882222; /* Darker shade for active button */
+    background: #882222; 
 }
 
-/* Promo and Rating Section */
+
 .promo-section {
     text-align: center;
     margin-top: 20px;
-    padding-bottom: 50px; /* Adds padding to the bottom for spacing */
+    padding-bottom: 50px; 
 }
 
 .promo-text {
@@ -57,16 +57,16 @@
     font-size: 36px;
     line-height: 43px;
     color: #AE1111;
-    margin-bottom: 20px; /* Spacing between promo text and rating question */
+    margin-bottom: 20px; 
 }
 
 .rating-section p {
     font-size: 24px;
     color: #333;
-    margin-bottom: 10px; /* Spacing before the rating stars */
+    margin-bottom: 10px; 
 }
 
-/* Ratings Styles */
+
 .ratings img {
     width: 50px;
     margin: 0 5px;
@@ -79,7 +79,7 @@
     transform: scale(1.1);
 }
 
-/* Footer Styles */
+
 .footer {
     position: relative;
     width: 100%;
@@ -124,12 +124,12 @@
 .footer {
     position: relative;
     width: 100%;
-    height: auto; /* Adjusted to auto to accommodate the content better */
+    height: auto; 
     background: #424A44;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Adjusted padding for better spacing */
+    padding: 20px; 
     box-sizing: border-box;
 }
 
@@ -142,14 +142,14 @@
 .termsLinks a {
     color: #FFFFFF;
     text-decoration: none;
-    margin-bottom: 5px; /* Space between links */
+    margin-bottom: 5px; 
 }
 
 .socials {
     display: flex;
-    flex-direction: row; /* Changed from column to row */
+    flex-direction: row; 
     align-items: center;
-    justify-content: center; /* Center align the items horizontally */
+    justify-content: center; 
 }
 
 
@@ -158,19 +158,19 @@
     font-style: italic;
     font-weight: 700;
     color: #FFFFFF;
-    margin-right: 20px; /* Space before the icons */
+    margin-right: 20px; 
 }
 
 .socialIcon {
     width: 40px;
     height: 40px;
-    margin: 0 10px; /* Space between icons */
-    display: inline-block; /* Ensures icons are in line */
+    margin: 0 10px; 
+    display: inline-block; 
 }
 
 .socialIcon img {
     width: 100%;
-    height: auto; /* Ensure the icons fit well within the container */
+    height: auto; 
 }
 
 .contactInfo {
@@ -184,11 +184,11 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-bottom: 5px; /* Space between contact info items */
+    margin-bottom: 5px; 
 }
 
 .contactInfo img {
-    margin-right: 10px; /* Space between icon and text */
+    margin-right: 10px; 
 }
 
 

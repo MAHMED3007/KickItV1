@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 import './GamesPage.css';
 import logo from './images/Logo.png';
 import user from './images/user.png';
@@ -27,7 +27,7 @@ function GamesPage() {
             setCurrentSlide((prevSlide) =>
                 prevSlide === slides.length - 1 ? 0 : prevSlide + 1
             );
-        }, 5000); // Changes slide every 5 seconds
+        }, 5000); 
 
         return () => clearTimeout(timer);
     }, [currentSlide, slides.length]);

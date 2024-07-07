@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Navbar, Nav, Button, Form, FormControl, Card, NavLink } from 'react-bootstrap';
-import { Link } from 'react-router-dom'; // Ensure Link is imported
+import { Link } from 'react-router-dom'; 
 import './Homepage.css';
 import logo from './images/Logo.png';
 import user from './images/user.png';

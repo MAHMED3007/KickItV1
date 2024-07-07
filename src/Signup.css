@@ -1,4 +1,4 @@
-/* General Styles */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body, html {
     position: relative;
 }
 
-/* Header Styles */
+
 .header {
     width: 100%;
     display: flex;
@@ -57,7 +57,7 @@ body, html {
     height: 80px;
 }
 
-/* Signup Container Styles */
+
 .signup-container {
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ body, html {
     margin-top: 20px;
 }
 
-/* Footer Styles */
+
 .footer {
     width: 100%;
     background-color: #424A44;
